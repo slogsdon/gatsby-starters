@@ -2,13 +2,19 @@
   "name": "gatsby-starter-hello-world",
   "description": "Gatsby hello world starter",
   "license": "MIT",
+  "version": "1.0.0",
+  "private": true,
   "scripts": {
     "dev": "gatsby develop",
     "build": "gatsby build",
     "start": "gatsby serve"
   },
   "dependencies": {
+    "@types/node": "^8.5.1",
+    "@types/react": "^16.0.30",
+    "@types/react-dom": "^16.0.3",
     "gatsby": "^1.9.119",
-    "gatsby-plugin-preact": "^1.0.14"
+    "gatsby-plugin-preact": "^1.0.14",
+    "gatsby-plugin-typescript": "^1.4.12"
   }
 }
