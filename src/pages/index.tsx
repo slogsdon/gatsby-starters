@@ -24,11 +24,11 @@ export default class extends React.Component<IndexPageProps> {
 }
 
 export const pageQuery = graphql`
-query IndexQuery {
-  site {
-    siteMetadata {
-      siteName
+  query IndexQuery {
+    site {
+      siteMetadata {
+        siteName
+      }
     }
   }
-}
 `;
