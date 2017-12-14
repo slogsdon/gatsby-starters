@@ -8,6 +8,7 @@
     "build": "gatsby build",
     "dev": "gatsby develop",
     "format": "prettier --write src/**/*",
+    "lint": "tslint --project tsconfig.json",
     "start": "gatsby serve"
   },
   "dependencies": {
@@ -17,6 +18,8 @@
     "gatsby": "^1.9.119",
     "gatsby-plugin-preact": "^1.0.14",
     "gatsby-plugin-typescript": "^1.4.12",
-    "prettier": "^1.9.2"
+    "prettier": "^1.9.2",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.2"
   }
 }
