@@ -5,8 +5,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "gatsby develop",
     "build": "gatsby build",
+    "dev": "gatsby develop",
+    "format": "prettier --write src/**/*",
     "start": "gatsby serve"
   },
   "dependencies": {
@@ -15,6 +16,7 @@
     "@types/react-dom": "^16.0.3",
     "gatsby": "^1.9.119",
     "gatsby-plugin-preact": "^1.0.14",
-    "gatsby-plugin-typescript": "^1.4.12"
+    "gatsby-plugin-typescript": "^1.4.12",
+    "prettier": "^1.9.2"
   }
 }
