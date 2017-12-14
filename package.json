@@ -1,0 +1,14 @@
+{
+  "name": "gatsby-starter-hello-world",
+  "description": "Gatsby hello world starter",
+  "license": "MIT",
+  "scripts": {
+    "dev": "gatsby develop",
+    "build": "gatsby build",
+    "start": "gatsby serve"
+  },
+  "dependencies": {
+    "gatsby": "^1.9.119",
+    "gatsby-plugin-preact": "^1.0.14"
+  }
+}
